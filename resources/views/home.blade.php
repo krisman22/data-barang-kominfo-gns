@@ -34,7 +34,7 @@
                         <div class="card m-2 bg-success" style="width: 18rem;">
                             <div class="card-body text-light">
                               <h5 class="card-title">Lokasi</h5>
-                              <h2 class="card-text">10</h2>
+                              <h2 class="card-text">{{$lokasi}}</h2>
                               <a href="{{route('lokasi.index')}}" class="btn btn-primary">Details</a>
                             </div>
                         </div>  

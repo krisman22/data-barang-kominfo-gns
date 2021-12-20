@@ -25,7 +25,8 @@ class HomeController extends Controller
     public function index()
     {
         $peralatan = DB::table('peralatan')->count();
+        $lokasi = DB::table('lokasi')->count();
         // dd($peralatan);
-        return view('home', compact('peralatan'));
+        return view('home', compact('peralatan', 'lokasi'));
     }
 }

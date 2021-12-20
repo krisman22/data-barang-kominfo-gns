@@ -90,6 +90,7 @@
             <div class="card">
                 <div class="card-header">Data Tambahan</div>
                 <div class="card-body">
+                    
                     <div class="row justify-content-center">
                         <div class="row">
                             <div class="col-md-3 text-dark">
@@ -150,6 +151,7 @@
             <div class="card">
                 <div class="card-header">History Mutasi Perangkat</div>
                 <div class="card-body">
+                    <a href="" class="btn btn-success">Mutasikan Peralatan</a>
                     <ul>
                         <li>Belum ada history</li>
                     </ul>
